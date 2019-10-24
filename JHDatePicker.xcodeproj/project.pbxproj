@@ -13,6 +13,7 @@
 		98AB17D62361D26400286736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AB17D42361D26400286736 /* Main.storyboard */; };
 		98AB17D82361D26500286736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AB17D72361D26500286736 /* Assets.xcassets */; };
 		98AB17DB2361D26500286736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AB17D92361D26500286736 /* LaunchScreen.storyboard */; };
+		98AB17E32361D40800286736 /* JHDatePickerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB17E22361D40800286736 /* JHDatePickerTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		98AB17D72361D26500286736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98AB17DA2361D26500286736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98AB17DC2361D26500286736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98AB17E22361D40800286736 /* JHDatePickerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHDatePickerTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				98AB17D72361D26500286736 /* Assets.xcassets */,
 				98AB17D92361D26500286736 /* LaunchScreen.storyboard */,
 				98AB17DC2361D26500286736 /* Info.plist */,
+				98AB17E22361D40800286736 /* JHDatePickerTool.swift */,
 			);
 			path = JHDatePicker;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98AB17D32361D26400286736 /* ViewController.swift in Sources */,
+				98AB17E32361D40800286736 /* JHDatePickerTool.swift in Sources */,
 				98AB17CF2361D26400286736 /* AppDelegate.swift in Sources */,
 				98AB17D12361D26400286736 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oschina.date.JHDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.oschina.date.JHDatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
