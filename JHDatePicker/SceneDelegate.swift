@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  JHDatePicker
 //
-//  Created by 李斌兴 on 2019/10/24.
-//  Copyright © 2019 李斌兴. All rights reserved.
+//  Created by Ewan Li on 2019/10/24.
+//  Copyright © 2019 Ewan Li. All rights reserved.
 //
 
 import UIKit
