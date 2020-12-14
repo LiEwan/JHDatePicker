@@ -1,4 +1,9 @@
 # JHDatePicker
+### 效果
+<p align='center'>
+<img src='JHDatePicker/preview.jpg' title='images' style='max-width:600px'></img>
+</p>
+
 ### 根据月份，获取每月1号的起始位置
 ```
 static public func getDateWeekday(date:Date) ->Int{    
