@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58DEA7252587173D000CB875 /* preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58DEA7242587173D000CB875 /* preview.jpg */; };
 		98AB17CF2361D26400286736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB17CE2361D26400286736 /* AppDelegate.swift */; };
 		98AB17D12361D26400286736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB17D02361D26400286736 /* SceneDelegate.swift */; };
 		98AB17D32361D26400286736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AB17D22361D26400286736 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58DEA7242587173D000CB875 /* preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = preview.jpg; sourceTree = "<group>"; };
 		98AB17CB2361D26400286736 /* JHDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AB17CE2361D26400286736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98AB17D02361D26400286736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		98AB17CD2361D26400286736 /* JHDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				58DEA7242587173D000CB875 /* preview.jpg */,
 				98AB17CE2361D26400286736 /* AppDelegate.swift */,
 				98AB17D02361D26400286736 /* SceneDelegate.swift */,
 				98AB17D22361D26400286736 /* ViewController.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DEA7252587173D000CB875 /* preview.jpg in Resources */,
 				98AB17DB2361D26500286736 /* LaunchScreen.storyboard in Resources */,
 				98AB17D82361D26500286736 /* Assets.xcassets in Resources */,
 				98AB17D62361D26400286736 /* Main.storyboard in Resources */,
@@ -313,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWKAF9YG4F;
+				DEVELOPMENT_TEAM = 83XQ4522UH;
 				INFOPLIST_FILE = JHDatePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JWKAF9YG4F;
+				DEVELOPMENT_TEAM = 83XQ4522UH;
 				INFOPLIST_FILE = JHDatePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
